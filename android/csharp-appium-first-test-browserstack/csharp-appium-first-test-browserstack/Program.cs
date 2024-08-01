@@ -17,7 +17,7 @@ namespace csharp_appium_first_test_browserstack
         {
             Dictionary<string, object> browserstackOptions = new Dictionary<string, object>();
             browserstackOptions.Add("userName", "your_username");
-            browserstackOptions.Add("accessKey", "");
+            browserstackOptions.Add("accessKey", "your_acceskey");
             browserstackOptions.Add("appiumVersion", "2.6.0");
             browserstackOptions.Add("buildName", "SwipeUp_8.0");
 
